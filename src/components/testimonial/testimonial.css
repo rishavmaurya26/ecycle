@@ -1,0 +1,46 @@
+
+.testimonial{
+    /* background-color: darksalmon; */
+    background-color: rgb(188, 181, 181);
+    height: 45vh;
+}
+.carousel
+{
+    width:60vw;
+    height:100%;
+    margin: auto;
+}
+.carousel-inner{
+    width:80%;
+    height:100%;
+}
+.carousel-item,.carousel-item-child
+{
+    height: 100%;
+    width:100%;
+    background-color:aliceblue;
+}
+
+.customer-img{
+    height: 100%;
+    width:50%;
+}
+
+.review{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 410px)
+{
+    .carousel{
+        width:90vw;
+        --bs-gutter-x: 0;
+        font-size: small;
+    }
+    .carousel-inner{
+        width:100%;
+    }
+}

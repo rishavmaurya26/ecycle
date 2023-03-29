@@ -1,0 +1,25 @@
+/* #header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#bbe6e9;
+    background-image: linear-gradient(to right,#A75D5D,#FFC3A1); 
+} */
+
+
+.header{
+    width:100%;
+    height: max-content;
+    display:flex;
+    justify-content: center;
+    background-color: #bbe6e9;
+    margin-bottom: .5rem;
+}
+.navbar{
+    width: 80%;
+    /* background-color: #D6E4E5; */
+    background-image: linear-gradient(to right,#bbe6e9,#bbe6e9);
+
+}
+

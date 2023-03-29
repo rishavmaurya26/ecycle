@@ -1,0 +1,45 @@
+#aboutmid{
+    height:90vh;
+    /* width:100vw; */
+    /* background-color: rgb(251, 182, 157); */
+    
+}
+.owner-info{
+    width:20%;
+    height: 100%;
+}
+.ownerinfo-container
+{
+    width: 100%;
+    height: 70%;
+}
+.owner-img{
+    height:40%;
+    width:90%;
+}
+
+@media screen and (max-width:410px){
+     #aboutmid{
+        height:max-content;
+        /* width:100vw; */
+        /* background-color: rgb(251, 182, 157); */
+        
+    }
+    .ownerinfo-container
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+    }
+
+    .owner-info{
+        margin-top: 1.5rem;
+        width:90%;
+        height: 100%;
+    }
+    .owner-img{
+        height:60%;
+        width:90%;
+    }
+
+}

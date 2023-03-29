@@ -1,0 +1,32 @@
+form{
+    width:40vw;
+}
+
+.icon{
+    height: 70px;
+    width:100px;
+}
+
+.formpage-container{
+    height: 100vh;
+    width:100vw;
+    background-image: linear-gradient(#09b9c6,#8fc0c3);
+}
+
+.register-form{
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height:100vh;
+    width:100vw; */
+    /* background: linear-gradient(#4e55de, #9198e5); */
+    /* background-image: linear-gradient(#09b9c6,#8fc0c3); */
+}
+
+.form-container-sign{
+    width:30vw;
+    height: max-content;
+    /* background-color: bisque;  */
+    background-image: linear-gradient();
+}

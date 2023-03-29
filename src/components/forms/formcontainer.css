@@ -1,0 +1,20 @@
+#formcontainer{
+    height:120vh;
+    width:100%;
+    background-color: #bbe6e9; 
+    /* background-color: white; */
+    display: flex;
+}
+
+@media only screen and (max-width: 410px) {
+    #formcontainer{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+    iframe{
+        width: 100vw;
+        height: 130vh;
+    }
+    
+  }
