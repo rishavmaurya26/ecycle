@@ -1,9 +1,13 @@
 #formcontainer{
     height:120vh;
     width:100%;
-    background-color: #bbe6e9; 
+    /* background-color: #bbe6e9;  */
     /* background-color: white; */
+    background-color: rgb(19, 126, 126);
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
 }
 
 @media only screen and (max-width: 410px) {

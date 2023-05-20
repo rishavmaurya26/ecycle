@@ -1,49 +1,43 @@
 import React from 'react'
 import "./testimonial.css"
-export default function Testimonial()
-{
+export default function Testimonial() {
+  return (
+    <div className="container-fluid testimonial">
+      <div id="carouselExample" className="carousel slide">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <div className="carousel-item-child d-flex flex-wrap align-items-center justify-content-evenly">
+              <div className="customer d-flex flex-column align-items-center justify-content-evenly">
+                <img src="customer2.jpeg" alt="customer-img" className="customer-img" />
+                <div className="review p-2">I save 30-45 minutes on my daily commute. I don’t feel exausted in office 
+                or end of day reaching home. This Cycle is a real gift for me.
+                </div>
+                <div className='float-end fw-bold align-self-end'>Baiju</div>
+              </div>
+              <div className="customer d-flex flex-column align-items-center justify-content-evenly">
+                <img src="customer2.png" alt="customer-img" className="customer-img" />
+                <div className="review p-2">I did research on all types of electric bicycles available in India and found Rango
+                 E-Cycles as best value for money. Me and my family uses it for shopping at nearest market which is 5 km from our 
+                 home. It helps us save money.
+                </div>
+                <div className='float-end fw-bold align-self-end'>Rajesh</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button> */}
+      </div>
 
-// const carousel = new bootstrap.Carousel(myCarouselElement, {
-//   interval: 2000,
-//   touch: false
-// })
-    return(
-        <div className="container-fluid testimonial">
-            <div id="carouselExample" class=" d-flex flex-row align-item-center justify-content-center carousel slide">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-  <div className="d-flex flex-row flex-wrap carousel-item-child">
-      <img src= "customer.jpg" alt="customer-img" className="customer-img"/>
-      <div className="review p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore itaque, blanditiis sapiente optio eos expedita harum soluta 
-      sed? Veritatis corporis quia in temporibus, ratione consequuntur nihil eaque incidunt nostrum vitae!</div>
     </div>
-  </div>
-  <div class="carousel-item">
-    <div className="d-flex flex-row flex-wrap carousel-item-child">
-      <img src="customer.jpg" alt="customer-img" className="customer-img"/>
-      <div className="review p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore itaque, blanditiis sapiente optio
-       eos expedita harum soluta sed? Veritatis corporis quia in temporibus, ratione consequuntur nihil eaque incidunt nostrum vitae!</div>
-    </div>
-  </div>
-  <div class="carousel-item">
-  <div className="d-flex flex-row flex-wrap carousel-item-child">
-      <img src="customer.jpg" alt="customer-img" className="customer-img"/>
-      <div className="review p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore itaque, blanditiis sapiente optio 
-      eos expedita harum soluta sed? Veritatis corporis quia in temporibus, ratione consequuntur nihil eaque incidunt nostrum vitae!</div>
-    </div>
-  </div>
-</div>
-<button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-  <span class="carousel-control-next-icon " aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-</div>
-</div>
 
 
-    )
+  )
 }
+

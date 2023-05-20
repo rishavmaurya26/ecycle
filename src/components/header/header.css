@@ -13,13 +13,13 @@
     height: max-content;
     display:flex;
     justify-content: center;
-    background-color: #bbe6e9;
+    background-color: rgb(19, 126, 126);
     margin-bottom: .5rem;
 }
 .navbar{
     width: 80%;
-    /* background-color: #D6E4E5; */
-    background-image: linear-gradient(to right,#bbe6e9,#bbe6e9);
+    /* background-color: #4ab6be; */
+    background-image: linear-gradient(to right,rgb(19, 126, 126),rgb(19, 126, 126)); 
 
 }
 
