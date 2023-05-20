@@ -33,6 +33,3 @@ export default function Footer() {
 }
 
 
-{/* <li className="nav-item"><Link to="/" className="nav-link px-2 text-light">Home</Link></li>
-          {/* <li className="nav-item"><Link className="nav-link px-2 text-dark">Contact</Link></li> */}
-          // <li className="nav-item"><Link to="/about" className="nav-link px-2 text-light">About</Link></li> */}
