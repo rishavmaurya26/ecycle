@@ -1,0 +1,51 @@
+#cycles{
+    width:100%;
+    /* height: max-content; */
+    position: relative;
+    /* background-color: antiquewhite; */
+    background-color: rgb(237, 241, 240);
+}
+#cycles .leftportion{
+    width: 19%;
+    background-color: white;
+    height: 100%;
+}
+
+#cycles .rightportion{
+    width:80%;
+    background-color: white;
+}
+
+#cycles .rightportion .cycle-row{
+    width:100%;
+}
+#cycles .rightportion .card{
+    width:23%;
+    height:300px;
+    border:0;
+    box-sizing: border-box;
+}
+
+/* .card-body{
+    background-color: bisque;
+} */
+#cycles .rightportion .card:hover{
+    border: 2px solid rgb(186, 184, 184);
+}
+
+#cycles .rightportion .card-img-top {
+    height:55%;
+}
+
+.sorting{
+    width:50%;
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+
+/* .sorting button{
+    color: black;
+} */

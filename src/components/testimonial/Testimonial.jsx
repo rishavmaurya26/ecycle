@@ -7,6 +7,7 @@ export default function Testimonial() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="carousel-item-child d-flex flex-wrap align-items-center justify-content-evenly">
+              
               <div className="customer d-flex flex-column align-items-center justify-content-evenly">
                 <img src="customer2.jpeg" alt="customer-img" className="customer-img" />
                 <div className="review p-2">I save 30-45 minutes on my daily commute. I don’t feel exausted in office 
@@ -14,6 +15,7 @@ export default function Testimonial() {
                 </div>
                 <div className='float-end fw-bold align-self-end'>Baiju</div>
               </div>
+
               <div className="customer d-flex flex-column align-items-center justify-content-evenly">
                 <img src="customer2.png" alt="customer-img" className="customer-img" />
                 <div className="review p-2">I did research on all types of electric bicycles available in India and found Rango
@@ -22,6 +24,7 @@ export default function Testimonial() {
                 </div>
                 <div className='float-end fw-bold align-self-end'>Rajesh</div>
               </div>
+
             </div>
           </div>
         </div>

@@ -3,30 +3,38 @@ form{
 }
 
 .icon{
-    height: 70px;
-    width:100px;
+    height: 50px;
+    width:80px;
 }
 
-.formpage-container{
-    height: 100vh;
-    width:100vw;
-    background-image: linear-gradient(#09b9c6,#8fc0c3);
+#signing .formpage-container{
+    width:100%;
 }
 
-.register-form{
+#signin .register-form{
     /* color: white; */
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* height:100vh;
-    width:100vw; */
-    /* background: linear-gradient(#4e55de, #9198e5); */
-    /* background-image: linear-gradient(#09b9c6,#8fc0c3); */
 }
 
 .form-container-sign{
     width:30vw;
     height: max-content;
     /* background-color: bisque;  */
-    background-image: linear-gradient();
+}
+
+@media screen and (max-width:750px){
+
+    /* h2{
+        font-size: small;
+    } */
+    .company,.form-container-sign,form{
+        width: 100%;
+    }
+    
+    #signin Link{
+        font-size: small;
+    }
 }

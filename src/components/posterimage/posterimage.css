@@ -1,15 +1,16 @@
-.illustration_container
+.posterimage_container
 {
     position:relative;
 }
 
-.illustration{
+.posterimage{
     width:100%;
     height: 40vh;
 }
 
 .leaderboard{
     position: absolute;
+    width: 50%;
     left: 25%;
     top : 10%;
     
