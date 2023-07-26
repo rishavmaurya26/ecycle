@@ -32,7 +32,7 @@ export default function Services() {
                             <h5 className="card-title">Components pricing</h5>
                             <p className="card-text"> Buy electric components such as motors, battery, sensors etc.</p>
                         </div>
-                        <a className='stretched-link' href="http://localhost:3000/component_catalog"></a>
+                        <a className='stretched-link' href="http://localhost:3000/component_catalog">.</a>
                     </div>
                 
             </div>
