@@ -4,7 +4,7 @@ import About from './pages/about/About'
 import Signin from './pages/Signin/Signin';
 import Register from './pages/register/Register';
 import Catalog from './pages/cycle_catalog/Catalog';
-import Contactus from './pages/contactus/ContactUs';
+import ContactUs from './pages/contactus/ContactUs';
 import ComponentCatalog from './pages/component_catalog/ComponentCatalog';
 import {
   BrowserRouter,
@@ -21,7 +21,7 @@ function App() {
     <Route path="/register" element={<Register/>}></Route>
     <Route path="/signin" element={<Signin/>}></Route>
     <Route path="/bike_catalog" element={<Catalog/>}></Route>
-    <Route path="/contact" element={<Contactus/>}></Route>
+    <Route path="/contact" element={<ContactUs/>}></Route>
     <Route path="/component_catalog" element={<ComponentCatalog/>}></Route>
     </Routes>
     </BrowserRouter>      

@@ -1,11 +1,11 @@
 import React from "react";
-import './contactUs.css';
+import './ContactUs.css';
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Iframe from 'react-iframe'
-export default function Contactus() {
+export default function ContactUs() {
     return (
         <div className="contactuscontainer">
             <Header></Header>
