@@ -1,5 +1,5 @@
 import React from "react";
-import './contactus.css';
+import './contactUs.css';
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
