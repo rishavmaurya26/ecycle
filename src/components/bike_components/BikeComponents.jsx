@@ -1,7 +1,7 @@
 import React from 'react'
-import "./bike_components.css"
+import "./BikeComponents.css"
 
-export default function Bike_Component() {
+export default function BikeComponent() {
 
     return (
         <div className="container-fluid" id="components">
