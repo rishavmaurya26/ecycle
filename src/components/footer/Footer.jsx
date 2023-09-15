@@ -8,7 +8,7 @@ export default function Footer() {
     <div className="container-fluid " id="footer">
       <footer className="d-flex flex-wrap justify-content-evenly  py-4  my-0 border-top">
         <div className="d-flex flex-wrap col-md-3 footer-child-1">
-          <div className='align-self-start'><h4 >RANGO E-CYCLE</h4></div>
+          <div className='align-self-start'><h4 >RANGO E-CYCLES</h4></div>
           <p> Best in class electric cycles to meet your everyday needs, keeps you fit, save your money and helps the environment.</p>
         </div>
         <div className="d-flex flex-wrap col-md-3 footer-child-2">

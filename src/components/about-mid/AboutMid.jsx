@@ -3,7 +3,7 @@ import './aboutmid.css'
 export default function AboutMid() {
     return (
         <div className="container-fluid p-5" id="aboutmid">
-            <h1 className='text-center'>Rango e-cycles</h1>
+            <h1 className='text-center'>Rango E-Cycles</h1>
             <p className='text-center'>We are patna based electric bicycle retails brand that sells high-performance bicycles.
                 Best in class electric cycles to meet your everyday needs, keeps you fit, save your money and helps the environment.</p>
             <div className="d-flex align-items-center justify-content-evenly ownerinfo-container">
