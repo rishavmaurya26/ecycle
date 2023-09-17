@@ -7,13 +7,12 @@ import "./Bike.css"
 
 export default function Bike(){
     let {id} = useParams()
+    id = parseInt(id)
     var selected_bike =  Bikes.filter(
         (bike) => {
-            console.log(bike.id)
-            return bike.id == id;
+            return bike.id === id;
         }
     )[0]
-    console.log(selected_bike)
     return(
         <div className='conatiner-fluid'>
         <Header></Header>
