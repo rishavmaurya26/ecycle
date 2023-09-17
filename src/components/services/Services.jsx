@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./services.css"
 
 export default function Services() {
@@ -11,8 +12,8 @@ export default function Services() {
                         <div className="card-body">
                             <h5 className="card-title">Bike pricing</h5>
                             <p className="card-text">Buy electic bikes from the best brands available.</p>
+                            <Link to="/bike_catalog" class="btn btn-success">Explore</Link>
                         </div>
-                        <a className='stretched-link' href="http://localhost:3000/bike_catalog">.</a>
                     </div>
              
 
@@ -22,6 +23,7 @@ export default function Services() {
                         <div className="card-body">
                             <h5 className="card-title">Convert your cycle into electric cycle</h5>
                             <p className="card-text">Bring your normal cycle and get it converted into electric cycle as per your requirements.</p>
+                            <Link to="/about" class="btn btn-secondary disabled">Explore</Link>
 
                         </div>
                     </div>
@@ -31,8 +33,8 @@ export default function Services() {
                         <div className="card-body">
                             <h5 className="card-title">Components pricing</h5>
                             <p className="card-text"> Buy electric components such as motors, battery, sensors etc.</p>
+                            <Link to="/about" class="btn btn-secondary disabled">Explore</Link>
                         </div>
-                        <a className='stretched-link' href="http://localhost:3000/component_catalog"></a>
                     </div>
                 
             </div>

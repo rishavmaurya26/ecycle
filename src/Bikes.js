@@ -1,87 +1,99 @@
 export const Bikes = [
     {
-        image:"cycle.jpg",
-        Brand : "B1",
-        Price: 19000,
-        Range: 25,
-        Charging:2.5
+        id:1,
+        image:"hum_berry_blue.jpeg",
+        Brand : "Motovolt HUM",
+        Price: "33049-45434",
+        Features: "Trellis Design",
+        Suitablility:"City Commute, Long Distance Commute, Delivery Person"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A2",
-        Price: 23000,
-        Range: 35,
-        Charging:4.5
+        id:2,
+        image:"KIVO_RED.jpeg",
+        Brand : "Motovolt KIVO",
+        Price: "32674-45059",
+        Features: "Inbuilt carrier",
+        Suitablility:"Perfect for Schoolers"
     },
     {
-        image:"cycle.jpg",
-        Brand : "B1",
-        Price: 20000,
-        Range: 30,
-        Charging:2
+        id:3,
+        image:"KIVO_Easy_Aqua_Blue.jpeg",
+        Brand : "Motovolt KIVO EASY",
+        Price: "31774-44159",
+        Features: "Unisex Design",
+        Suitablility:"Unisex design perfect for all"
     },
     {
-        image:"cycle.jpg",
-        Brand : "B2",
-        Price: 28000,
-        Range: 25,
-        Charging:3.5
+        id:4,
+        image:"KIVO_24_Lilac.jpeg",
+        Brand : "Motovolt KIVO 24",
+        Price: "31774-44159",
+        Features: "Low Height Cycle",
+        Suitablility:"Perfect for girls/ladies"
     },
     {
-        image:"cycle.jpg",
-        Brand : "B2",
-        Price: 26000,
-        Range: 25,
-        Charging:3
+        id:5,
+        image:"ICE_Yellow.jpeg",
+        Brand : "Motovolt ICE",
+        Price: "28449-33129",
+        Features: "Foldable Cycle",
+        Suitablility:"Perfect for trekkers, hitchhikers, gateway societies"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A1",
-        Price: 19000,
-        Range: 25,
-        Charging:2.5
+        id:6,
+        image:"URBN_Orange_Front_View.jpeg",
+        Brand : "Motovolt URBN",
+        Price: "49999-54999",
+        Features: "Moped Style Cycle",
+        Suitablility:"Perfect for Everyday Need"
     },
     {
-        image:"cycle.jpg",
-        Brand : "B1",
-        Price: 35000,
-        Range: 45,
-        Charging:4
+        id:7,
+        image:"N50.png",
+        Brand : "Epick N50",
+        Price: 31999,
+        Features: "Meg Wheel Rugged Frame Electric Cycle",
+        Suitablility:"Perfect for Everyday Need"
     },
     {
-        image:"cycle.jpg",
-        Brand : "B2",
-        Price: 19000,
-        Range: 25,
-        Charging:3.5
+        id:8,
+        image:"N100.png",
+        Brand : "Epick N100",
+        Price: 41999,
+        Features: "Meg Wheel Rugged Frame Electric Cycle",
+        Suitablility:"Perfect for carrying heavy load"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A2",
-        Price: 19000,
-        Range: 25,
-        Charging:2.5
+        id:9,
+        image:"002S.jpeg",
+        Brand : "Alter 002S",
+        Price: 22424,
+        Features: "Ranger style cycle with frame battery",
+        Suitablility:"Perfect for students"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A1",
-        Price: 19000,
-        Range: 25,
-        Charging:4.5
+        id:10,
+        image:"002SPRO.jpeg",
+        Brand : "Alter 002S PRO",
+        Price: 25442,
+        Features: "Ranger style cycle with frame battery",
+        Suitablility:"Perfect for students travelling more distance than 30km per charge"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A2",
-        Price: 19000,
-        Range: 25,
-        Charging:1.5
+        id:11,
+        image:"001PRO.jpeg",
+        Brand : "Alter 001 PRO",
+        Price: 27254,
+        Features: "Ranger style cycle with frame battery and LCD display",
+        Suitablility:"Perfect for students travelling more distance than 30km per charge"
     },
     {
-        image:"cycle.jpg",
-        Brand : "A2",
-        Price: 19000,
-        Range: 25,
-        Charging:4
+        id:12,
+        image:"003PRO.jpeg",
+        Brand : "Alter 003 PRO",
+        Price: 30272,
+        Features: "Ranger style cycle with LCD display, USB port and backlight",
+        Suitablility:"Perfect for students travelling more distance than 30km per charge"
     }
-    
+
 ]

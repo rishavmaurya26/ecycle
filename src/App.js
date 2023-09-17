@@ -6,6 +6,7 @@ import Register from './pages/register/Register';
 import Catalog from './pages/cycle_catalog/Catalog';
 import ContactUs from './pages/contactus/ContactUs';
 import ComponentCatalog from './pages/component_catalog/ComponentCatalog';
+import Bike from './components/Bike/Bike';
 import {
   BrowserRouter,
   Routes,
@@ -21,6 +22,7 @@ function App() {
     <Route path="/register" element={<Register/>}></Route>
     <Route path="/signin" element={<Signin/>}></Route>
     <Route path="/bike_catalog" element={<Catalog/>}></Route>
+    <Route path="/bike_catalog/:id" element={<Bike/>}></Route>
     <Route path="/contact" element={<ContactUs/>}></Route>
     <Route path="/component_catalog" element={<ComponentCatalog/>}></Route>
     </Routes>
