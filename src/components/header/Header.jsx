@@ -7,7 +7,7 @@ export default function Header()
         <div className="header m-0">
             <nav className="navbar navbar-expand-lg bg-body-tertiary" id="header" >
     <div className="container-fluid">
-      <img src={`https://rango-ecycle.netlify.app/logo.png}`} alt="" style={{height:"60px",width:"100px"}} />
+      <img src="https://rango-ecycle.netlify.app/logo.png" alt="" style={{height:"60px",width:"100px"}} />
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
