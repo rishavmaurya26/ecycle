@@ -6,7 +6,7 @@ import {   Link } from "react-router-dom"
 
 export default function Catalogmid() {
     var bikes = Bikes
-    const[isFiltered, filterIt] = useState({Motovolt:0,Epick:0,Alter:0,All:1});
+    const[isFiltered, filterIt] = useState({Motovolt:0,Epick:0,All:1});
     if(isFiltered.Motovolt===1)
     {
         bikes = Bikes.filter(
@@ -23,14 +23,6 @@ export default function Catalogmid() {
             }
         )
     }
-    else if(isFiltered.Alter===1)
-    {
-        bikes = Bikes.filter(
-            (bike) => {
-                return bike.Brand.split(" ")[0] === "Alter"
-            }
-        )   
-    }
     else {
         bikes = Bikes
     }
@@ -40,10 +32,9 @@ export default function Catalogmid() {
                 <h3>Best electric cycle in patna</h3>
                 <div className="filtering list-group list-group-horizontal">
                     <span>Filter</span>
-                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:1,Epick:0,Alter:0,All:0})} style={{backgroundColor: isFiltered.Motovolt ? 'green': "white"}}>Motovolt</button>
-                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:0,Epick:1,Alter:0,All:0})} style={{backgroundColor: isFiltered.Epick ? 'green': "white"}}>Epick</button>
-                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:0,Epick:0,Alter:1,All:0})} style={{backgroundColor: isFiltered.Alter ? 'green': "white"}}>Alter</button>
-                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:0,Epick:0,Alter:0,All:1})} style={{backgroundColor: isFiltered.All ? 'green': "white"}}>All</button>
+                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:1,Epick:0,All:0})} style={{backgroundColor: isFiltered.Motovolt ? 'green': "white"}}>Motovolt</button>
+                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:0,Epick:1,All:0})} style={{backgroundColor: isFiltered.Epick ? 'green': "white"}}>Epick</button>
+                    <button type="button" className="btn btn-light border mx-2" onClick={()=>filterIt({Motovolt:0,Epick:0,All:1})} style={{backgroundColor: isFiltered.All ? 'green': "white"}}>All</button>
                 </div>
                 <div className="cycle-row d-flex flex-row flex-wrap align-items-center justify-content-start">
                     {bikes.map((element) => {

@@ -7,6 +7,7 @@ import Catalog from './pages/cycle_catalog/Catalog';
 import ContactUs from './pages/contactus/ContactUs';
 import ComponentCatalog from './pages/component_catalog/ComponentCatalog';
 import Bike from './components/Bike/Bike';
+import BlogsList from './pages/BlogsList/BlogsList';
 import {
   BrowserRouter,
   Routes,
@@ -25,6 +26,7 @@ function App() {
     <Route path="/bike_catalog/:id" element={<Bike/>}></Route>
     <Route path="/contact" element={<ContactUs/>}></Route>
     <Route path="/component_catalog" element={<ComponentCatalog/>}></Route>
+    <Route path="/bloglist" element={<BlogsList/>}></Route>
     </Routes>
     </BrowserRouter>      
   );

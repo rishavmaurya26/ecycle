@@ -62,38 +62,6 @@ export const Bikes = [
         Price: 41999,
         Features: "Meg Wheel Rugged Frame Electric Cycle",
         Suitablility:"Perfect for carrying heavy load"
-    },
-    {
-        id:9,
-        image:"002S.jpeg",
-        Brand : "Alter 002S",
-        Price: 22424,
-        Features: "Ranger style cycle with frame battery",
-        Suitablility:"Perfect for students"
-    },
-    {
-        id:10,
-        image:"002SPRO.jpeg",
-        Brand : "Alter 002S PRO",
-        Price: 25442,
-        Features: "Ranger style cycle with frame battery",
-        Suitablility:"Perfect for students travelling more distance than 30km per charge"
-    },
-    {
-        id:11,
-        image:"001PRO.jpeg",
-        Brand : "Alter 001 PRO",
-        Price: 27254,
-        Features: "Ranger style cycle with frame battery and LCD display",
-        Suitablility:"Perfect for students travelling more distance than 30km per charge"
-    },
-    {
-        id:12,
-        image:"003PRO.jpeg",
-        Brand : "Alter 003 PRO",
-        Price: 30272,
-        Features: "Ranger style cycle with LCD display, USB port and backlight",
-        Suitablility:"Perfect for students travelling more distance than 30km per charge"
     }
 
 ]
