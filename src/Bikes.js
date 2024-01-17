@@ -35,7 +35,7 @@ export const Bikes = [
         id:5,
         image:"ICE_Yellow.jpeg",
         Brand : "Motovolt ICE",
-        Price: "28449-33129",
+        Price: "23449-28129",
         Features: "Foldable Cycle",
         Suitablility:"Perfect for trekkers, hitchhikers, gateway societies"
     },
