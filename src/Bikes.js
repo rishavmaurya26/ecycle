@@ -68,32 +68,32 @@ export const Bikes = [
         image:"EMX.png",
         Brand : "EMotorad EMX",
         Price: 58999,
-        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
-        Suitablility:"Perfect for long commuters"
+        Features: "Impressive 50+ km range, speed upto 25 km/h, light powerful motor gives smooth experience",
+        Suitablility:"Perfect for Everyday need"
     },
     {
         id:10,
         image:"T-REX+.png",
         Brand : "EMotorad T-REX+",
         Price: 39999,
-        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
-        Suitablility:"Perfect for long commuters"
+        Features: "Impressive 45+ km range, speed upto 25 km/h , powerful motor, dual disc stopping, gives seamless riding",
+        Suitablility:"Perfect for Everyday need"
     },
     {
         id:11,
         image:"x2.png",
         Brand : "EMotorad X2",
         Price: 27999,
-        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
-        Suitablility:"Perfect for long commuters"
+        Features: "Impressive 40+ km range, speed upto 25 km/h, High Tensile Step-Through Steel Frame",
+        Suitablility:"Perfect for Everyday need"
     },
     {
         id:12,
         image:"Doodle_V2.png",
         Brand : "EMotorad Doodle",
         Price: 49999,
-        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
-        Suitablility:"Perfect for long commuters"
+        Features: "Impressive 35+ km range, speed upto 25 km/h , folding MBT frame to aquire less space, gives powerful performance and smooth ride",
+        Suitablility:"Perfect for Everyday need"
     },
     {
         id:13,
