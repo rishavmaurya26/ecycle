@@ -62,6 +62,46 @@ export const Bikes = [
         Price: 41999,
         Features: "Meg Wheel Rugged Frame Electric Cycle",
         Suitablility:"Perfect for carrying heavy load"
+    },
+    {
+        id:9,
+        image:"EMX.png",
+        Brand : "EMotorad EMX",
+        Price: 58999,
+        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
+        Suitablility:"Perfect for long commuters"
+    },
+    {
+        id:10,
+        image:"T-REX+.png",
+        Brand : "EMotorad T-REX+",
+        Price: 39999,
+        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
+        Suitablility:"Perfect for long commuters"
+    },
+    {
+        id:11,
+        image:"x2.png",
+        Brand : "EMotorad X2",
+        Price: 27999,
+        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
+        Suitablility:"Perfect for long commuters"
+    },
+    {
+        id:12,
+        image:"Doodle_V2.png",
+        Brand : "EMotorad Doodle",
+        Price: 49999,
+        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
+        Suitablility:"Perfect for long commuters"
+    },
+    {
+        id:13,
+        image:"cycle_gosporty.jpg",
+        Brand : "Gosporty Bronze",
+        Price: 24999,
+        Features: "Impressive 30 km range, Detachable Carrier, Pedal Sensor, LED Display and IP65 Controller",
+        Suitablility:"Perfect for long commuters"
     }
 
 ]
