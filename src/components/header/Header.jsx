@@ -26,10 +26,10 @@ export default function Header()
         <Link className="nav-link active text-light" to="/bloglist">Blog</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link active text-light" to="/bloglist">Locate Stores</Link>
+        <Link className="nav-link active text-light" to="/storelocator">Locate Stores</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link active text-light" to="/bloglist">Easy EMI</Link>
+        <Link className="nav-link active text-light" to="/finance">Easy EMI</Link>
         </li>
          <li className="nav-item">
         <Link className="nav-link active text-light" to="/register">Sign In</Link>

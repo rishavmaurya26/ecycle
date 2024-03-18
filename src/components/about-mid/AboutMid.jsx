@@ -17,7 +17,7 @@ export default function AboutMid() {
                 <div className='d-flex flex-column justify-content-center align-items-center owner-info'>
                     <img src="Ritika.jpeg" alt="owner-img" className='owner-img' />
                     <div className="my-2">
-                        <p className='text-center'>Ritika dutt</p>
+                        <p className='text-center'>Ritika Dutt</p>
                         <p className='text-center'>Co-Founder</p>
                     </div>
                 </div>
