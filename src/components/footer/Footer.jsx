@@ -12,7 +12,7 @@ export default function Footer() {
           <p> Best in class electric cycles to meet your everyday needs, keeps you fit, save your money and helps the environment.</p>
         </div>
         <div className="d-flex flex-wrap col-md-3 footer-child-2">
-          <div className='align-self-start'><h4 >ADDRESS</h4></div>
+          <div className='align-self-start'><h4 >REGISTERED ADDRESS</h4></div>
           <p> Opposite Pillar No 300, Digha Sonepur Bridge Link (Nahar) Road, Digha, Patna 800018</p>
         </div>
         <div className="d-flex flex-column nav col-md-3 align-items-center footer-child-3">

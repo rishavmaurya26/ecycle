@@ -49,22 +49,15 @@ export const Bikes = [
     },
     {
         id:7,
-        image:"N50.png",
-        Brand : "Epick N50",
-        Price: 31999,
-        Features: "Meg Wheel Rugged Frame Electric Cycle",
-        Suitablility:"Perfect for Everyday Need"
+        image:"R30 Facelift.jpg",
+        Brand : "Rango R30",
+        Price: 26999,
+        Features: "Rango R30 Electric Bicycle with 7.8Ah Li-Ion Battery and color LCD display having error detection codes",
+        Suitablility:"Perfect for Schoolers and Daily Commute"
     },
+    
     {
         id:8,
-        image:"N100.png",
-        Brand : "Epick N100",
-        Price: 41999,
-        Features: "Meg Wheel Rugged Frame Electric Cycle",
-        Suitablility:"Perfect for carrying heavy load"
-    },
-    {
-        id:9,
         image:"EMX.png",
         Brand : "EMotorad EMX",
         Price: 58999,
@@ -72,7 +65,7 @@ export const Bikes = [
         Suitablility:"Perfect for Everyday need"
     },
     {
-        id:10,
+        id:9,
         image:"T-REX+.png",
         Brand : "EMotorad T-REX+",
         Price: 39999,
@@ -80,7 +73,7 @@ export const Bikes = [
         Suitablility:"Perfect for Everyday need"
     },
     {
-        id:11,
+        id:10,
         image:"x2.png",
         Brand : "EMotorad X2",
         Price: 27999,
@@ -88,7 +81,7 @@ export const Bikes = [
         Suitablility:"Perfect for Everyday need"
     },
     {
-        id:12,
+        id:11,
         image:"Doodle_V2.png",
         Brand : "EMotorad Doodle",
         Price: 49999,
@@ -96,7 +89,7 @@ export const Bikes = [
         Suitablility:"Perfect for Everyday need"
     },
     {
-        id:13,
+        id:12,
         image:"cycle_gosporty.jpg",
         Brand : "Gosporty Bronze",
         Price: 24999,
