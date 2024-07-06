@@ -55,31 +55,34 @@ export const Bikes = [
         Features: "Rango R30 Electric Bicycle with 7.8Ah Li-Ion Battery and color LCD display having error detection codes",
         Suitablility:"Perfect for Schoolers and Daily Commute"
     },
-    
+
     {
         id:8,
-        image:"EMX.png",
-        Brand : "EMotorad EMX",
-        Price: 58999,
-        Features: "Impressive 50+ km range, speed upto 25 km/h, light powerful motor gives smooth experience",
-        Suitablility:"Perfect for Everyday need"
+        image:"cycle.jpeg",
+        Brand : "EMotorad X1",
+        Price: 26999,
+        Features: "X1 is built for daily coffee runs, off-road endeavours, and everything in between",
+        Suitablility:"Budget electric bicycle with best performance"
     },
+
     {
         id:9,
-        image:"T-REX+.png",
-        Brand : "EMotorad T-REX+",
-        Price: 39999,
-        Features: "Impressive 45+ km range, speed upto 25 km/h , powerful motor, dual disc stopping, gives seamless riding",
-        Suitablility:"Perfect for Everyday need"
-    },
-    {
-        id:10,
         image:"x2.png",
         Brand : "EMotorad X2",
         Price: 27999,
         Features: "Impressive 40+ km range, speed upto 25 km/h, High Tensile Step-Through Steel Frame",
         Suitablility:"Perfect for Everyday need"
     },
+
+    {
+        id:10,
+        image:"T-REX+.png",
+        Brand : "EMotorad T-REX+",
+        Price: 39999,
+        Features: "Impressive 45+ km range, speed upto 25 km/h , powerful motor, dual disc stopping, gives seamless riding",
+        Suitablility:"Perfect for Everyday need"
+    },
+
     {
         id:11,
         image:"Doodle_V2.png",
@@ -88,8 +91,18 @@ export const Bikes = [
         Features: "Impressive 35+ km range, speed upto 25 km/h , folding MBT frame to aquire less space, gives powerful performance and smooth ride",
         Suitablility:"Perfect for Everyday need"
     },
+
     {
         id:12,
+        image:"EMX.png",
+        Brand : "EMotorad EMX",
+        Price: 58999,
+        Features: "Impressive 50+ km range, speed upto 25 km/h, light powerful motor gives smooth experience",
+        Suitablility:"Perfect for Everyday need"
+    },
+
+    {
+        id:13,
         image:"cycle_gosporty.jpg",
         Brand : "Gosporty Bronze",
         Price: 24999,
