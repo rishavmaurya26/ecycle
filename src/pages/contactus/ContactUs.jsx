@@ -30,8 +30,8 @@ export default function ContactUs() {
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="rightportion" >
-                    <Iframe className='my-1'title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfaobLJhnPtuKpJU3eb2yYFTSWLS8t-4i97VVOvjvx1tff9sg/viewform?embedded=true"
-                        width="640" height="809" frameborder="0" marginheight="0" marginwidth="0">Loading…</Iframe>
+                    <Iframe className='my-1'title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSepNRt2Hcr_xcqGovMGJ1jOazxhzdIwaV8LuyBs2PLl-yjb9A/viewform?usp=sf_link"
+                        width="600" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</Iframe>
                 </div>
             </div>
             <Footer></Footer>

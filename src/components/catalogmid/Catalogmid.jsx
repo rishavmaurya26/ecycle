@@ -57,6 +57,7 @@ export default function Catalogmid() {
                 <div className="cycle-row d-flex flex-row flex-wrap align-items-center justify-content-start">
                     {bikes.map((element) => {
                         return (<div className="card my-2">
+                        {/* <img src={`http://localhost:3000/${element.image}`} className="card-img-top" alt="..." /> */}
                         <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <span className="card-title">{element.Brand}</span>

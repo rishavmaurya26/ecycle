@@ -8,6 +8,8 @@ import ContactUs from './pages/contactus/ContactUs';
 import ComponentCatalog from './pages/component_catalog/ComponentCatalog';
 import Bike from './components/Bike/Bike';
 import BlogsList from './pages/BlogsList/BlogsList';
+import Storelocator from './pages/storelocator/storelocator';
+import Finance from './pages/finance/finance';
 import {
   BrowserRouter,
   Routes,
@@ -27,6 +29,8 @@ function App() {
     <Route path="/contact" element={<ContactUs/>}></Route>
     <Route path="/component_catalog" element={<ComponentCatalog/>}></Route>
     <Route path="/bloglist" element={<BlogsList/>}></Route>
+    <Route path="/storelocator" element={<Storelocator/>}></Route>
+    <Route path="/finance" element={<Finance/>}></Route>
     </Routes>
     </BrowserRouter>      
   );
