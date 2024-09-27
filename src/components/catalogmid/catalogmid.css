@@ -37,6 +37,7 @@
 
 #cycles .bikes_list .card-img-top {
     height:55%;
+    /* object-fit: fill; */
 }
 
 .filtering{

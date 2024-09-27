@@ -9,35 +9,35 @@ export const Bikes = [
     },
     {
         id:2,
-        image:"KIVO_RED.jpeg",
-        Brand : "Motovolt KIVO",
-        Price: "32674-45059",
-        Features: "Inbuilt carrier",
-        Suitablility:"Perfect for Schoolers"
+        image:"Legend07.png",
+        Brand : "EMotorad Legend07",
+        Price: "29999",
+        Features: "MSD Signature Edition",
+        Suitablility:"Dhoni wali cycle"
     },
     {
         id:3,
-        image:"KIVO_Easy_Aqua_Blue.jpeg",
-        Brand : "Motovolt KIVO EASY",
-        Price: "31774-44159",
-        Features: "Unisex Design",
-        Suitablility:"Unisex design perfect for all"
+        image:"Trexair.png",
+        Brand : "EMotorad Trex Air",
+        Price: "34999",
+        Features: "Geared Beast for riders",
+        Suitablility:"Perfect for riders and commuters"
     },
     {
         id:4,
-        image:"KIVO_24_Lilac.jpeg",
-        Brand : "Motovolt KIVO 24",
-        Price: "31774-44159",
-        Features: "Low Height Cycle",
+        image:"STX.png",
+        Brand : "EMotorad ST-X",
+        Price: "29999",
+        Features: "Ladybird of Electric Bicycles",
         Suitablility:"Perfect for girls/ladies"
     },
     {
         id:5,
-        image:"ICE_Yellow.jpeg",
-        Brand : "Motovolt ICE",
-        Price: "23449-28129",
-        Features: "Foldable Cycle",
-        Suitablility:"Perfect for trekkers, hitchhikers, gateway societies"
+        image:"TREXPRO.png",
+        Brand : "EMotorad TREX Pro",
+        Price: "49999",
+        Features: "India's First In-Frame Light Horn Display 7 Gear Electric Bicycle",
+        Suitablility:"Perfect blend of innovation and performance"
     },
     {
         id:6,
@@ -58,34 +58,34 @@ export const Bikes = [
 
     {
         id:8,
-        image:"cycle.jpeg",
+        image:"X1.png",
         Brand : "EMotorad X1",
-        Price: 26999,
+        Price: 22999,
         Features: "X1 is built for daily coffee runs, off-road endeavours, and everything in between",
         Suitablility:"Budget electric bicycle with best performance"
     },
 
     {
         id:9,
-        image:"x2.png",
+        image:"X2.png",
         Brand : "EMotorad X2",
-        Price: 27999,
+        Price: 27499,
         Features: "Impressive 40+ km range, speed upto 25 km/h, High Tensile Step-Through Steel Frame",
         Suitablility:"Perfect for Everyday need"
     },
 
     {
         id:10,
-        image:"T-REX+.png",
-        Brand : "EMotorad T-REX+",
+        image:"TREXPLUS_V3.png",
+        Brand : "EMotorad T-REX+ V3",
         Price: 39999,
-        Features: "Impressive 45+ km range, speed upto 25 km/h , powerful motor, dual disc stopping, gives seamless riding",
+        Features: "Impressive 45+ km range, speed upto 25 km/h , powerful motor, dual disc stopping, gives seamless riding with integrated display",
         Suitablility:"Perfect for Everyday need"
     },
 
     {
         id:11,
-        image:"Doodle_V2.png",
+        image:"DOODLE_V2.png",
         Brand : "EMotorad Doodle",
         Price: 49999,
         Features: "Impressive 35+ km range, speed upto 25 km/h , folding MBT frame to aquire less space, gives powerful performance and smooth ride",
@@ -94,9 +94,9 @@ export const Bikes = [
 
     {
         id:12,
-        image:"EMX.png",
-        Brand : "EMotorad EMX",
-        Price: 58999,
+        image:"EMXPLUS.png",
+        Brand : "EMotorad EMX+",
+        Price: 49999,
         Features: "Impressive 50+ km range, speed upto 25 km/h, light powerful motor gives smooth experience",
         Suitablility:"Perfect for Everyday need"
     },
