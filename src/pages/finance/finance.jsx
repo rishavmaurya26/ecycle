@@ -12,7 +12,7 @@ export default function ImageGallery()
             <Header></Header>
          <div className="image-gallery">
             <div className="card my-2 gallery-image">
-                    <img src="http://localhost:3000/Bajaj.png" className="card-img-top" alt="..." />
+                    <img src="https://rango-ecycle.netlify.app/Bajaj.png" className="card-img-top" alt="..." />
                     {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
                     <div className="card-body">
                         <p>
@@ -21,7 +21,7 @@ export default function ImageGallery()
                     </div>
                </div>
                <div className="card my-2 gallery-image">
-                   <img src="http://localhost:3000/shopse.png" className="card-img-top" alt="..." />
+                   <img src="https://rango-ecycle.netlify.app/shopse.png" className="card-img-top" alt="..." />
                    {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
                    <div className="card-body">
                        <p>
@@ -30,7 +30,7 @@ export default function ImageGallery()
                    </div>
                </div>
                <div className="card my-2 gallery-image"> 
-                    <img src="http://localhost:3000/hdfc.png" className="card-img-top" alt="..." />
+                    <img src="https://rango-ecycle.netlify.app/hdfc.png" className="card-img-top" alt="..." />
                     {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
                     <div className="card-body">
                         <p>

@@ -17,7 +17,7 @@ export default function Part(){
         <div className='conatiner-fluid'>
         <Header></Header>
         <div className="zoom-view">
-                        <img src={`http://localhost:3000/${selected_Part.image}`}  alt="..." />
+                        <img src={`https://rango-ecycle.netlify.app/${selected_Part.image}`}  alt="..." />
                            <div className="card-body">
                            <span className="card-title">{selected_Part.Brand}</span>
                             <p className="my-0 fw-bold">Rs. {selected_Part.Price}</p>
