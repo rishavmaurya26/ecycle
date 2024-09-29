@@ -15,28 +15,23 @@ export default function Services() {
                             <Link to="/bike_catalog" class="btn btn-success">Explore</Link>
                         </div>
                     </div>
-             
-
-             
-                    <div className="card">
-                        <img src="bike_customize.jpg" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Convert your cycle into electric cycle</h5>
-                            <p className="card-text">Bring your normal cycle and get it converted into electric cycle as per your requirements.</p>
-                            <Link to="/about" class="btn btn-secondary disabled">Explore</Link>
-
-                        </div>
-                    </div>
-                
                     <div className="card">
                         <img src="accessories.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Components pricing</h5>
                             <p className="card-text"> Buy electric components such as motors, battery, sensors etc.</p>
-                            <Link to="/about" class="btn btn-secondary disabled">Explore</Link>
+                            <Link to="/Part_catalog" class="btn btn-success">Explore</Link>
                         </div>
                     </div>
-                
+                    <div className="card">
+                        <img src="bike_customize.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Service your electric cycle</h5>
+                            <p className="card-text">Get your cycle serviced.</p>
+                            <Link to="/about" class="btn btn-secondary disabled">Explore</Link>
+
+                        </div>
+                    </div>
             </div>
         </div>
     )

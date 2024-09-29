@@ -7,15 +7,43 @@ import './finance.css'
 // const ImageGallery = () => {
 export default function ImageGallery()
 {
-    return (
-        // <div className="image-gallery">
+    return (  
         <div>
             <Header></Header>
-            <img src="https://drive.google.com/file/d/1CAO6iSWKoOKJ3RdS6NUE1Otof8DDhelr/view?usp=sharing" alt="HDFC Finance" className="gallery-image" />
-            <img src="https://drive.google.com/file/d/1o0qPBwjC9rQLlyXRQ3m33ZBW9J5UXjZQ/view?usp=sharing" alt="Shopse" className="gallery-image" />
-            <img src="https://drive.google.com/file/d/1VfPJ1S8xRnQ0bJMtSq7QT1hhXs3EvftY/view?usp=sharing" alt="Bajaj Finserv" className="gallery-image" />
+         <div className="image-gallery">
+            <div className="card my-2 gallery-image">
+                    <img src="http://localhost:3000/Bajaj.png" className="card-img-top" alt="..." />
+                    {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
+                    <div className="card-body">
+                        <p>
+                        Bajaj Finance for eligible customers who are already having active Bajaj EMI card.
+                        </p>
+                    </div>
+               </div>
+               <div className="card my-2 gallery-image">
+                   <img src="http://localhost:3000/shopse.png" className="card-img-top" alt="..." />
+                   {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
+                   <div className="card-body">
+                       <p>
+                       Second should be Shopse, credit card payment through shopse web link. Customer can get 3 & 6 month NO COST EMI option.
+                       </p>
+                   </div>
+               </div>
+               <div className="card my-2 gallery-image"> 
+                    <img src="http://localhost:3000/hdfc.png" className="card-img-top" alt="..." />
+                    {/* <img src={`https://rango-ecycle.netlify.app/${element.image}`} className="card-img-top" alt="..." /> */}
+                    <div className="card-body">
+                        <p>
+                        Bajaj Finance for eligible customers who are already having active Bajaj EMI card.
+                        </p>
+                    </div>
+               </div>
+              
+         </div>
         <Footer></Footer>
-        </div>
+        </div>     
+        
+   
     )
 }
 

@@ -1,15 +1,15 @@
 import React from 'react'
-import BikeComponent from '../../components/bike_components/BikeComponents' 
+import BikeParts from '../../components/bike_part/BikeParts' 
 import Header from '../../components/header/Header' 
 import Footer from '../../components/footer/Footer'
 import "./ComponentCatalog.css"
 
-export default function Component_Catalog()
+export default function ComponentCatalog()
 {
     return(
         <div className="container_fluid">
             <Header></Header>
-            <BikeComponent></BikeComponent>
+            <BikeParts></BikeParts>
             <Footer></Footer>
         </div>
     )
