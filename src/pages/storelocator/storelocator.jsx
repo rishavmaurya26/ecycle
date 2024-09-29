@@ -1,10 +1,9 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import Iframe from 'react-iframe'
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faTwitter, faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
+// import Iframe from 'react-iframe'
 import './storelocator.css'
 
 export default function Storelocator()
