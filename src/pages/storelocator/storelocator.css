@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width:500px){
+    .storelocator_container .address{
+        width:90%;
+    }
     .storelocator_container .store{
         flex-direction: column;
         height: max-contents;
